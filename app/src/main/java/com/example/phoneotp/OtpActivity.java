@@ -30,6 +30,7 @@ public class OtpActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private String verificationid;
     private ProgressBar progressBar;
+    private String viewOTP;
 
 
     @Override
