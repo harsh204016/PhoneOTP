@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="229dp"
+    android:orientation="horizontal"
+    android:padding="15dp">
+    <Spinner
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCountries"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:id="@+id/editTextPhone"
+        android:hint="Phone Number"
+        android:maxLength="10"/>
+</LinearLayout>
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="88dp"
+        android:text="Send OTP"
+        android:textAllCaps="false"
+        android:background="#00e5ff"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+</RelativeLayout>
